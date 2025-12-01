@@ -6,18 +6,23 @@ tags:
   - Ontologies
   - Workflows
 authors:
-  - name: First Author
+  - name: Andra Waagmeester
+    orcid: 0000-0001-9773-4008
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Vincent Emonet
+    orcid: 0000-0002-1501-1082
+    affiliation: 2
+  - name: Jerven Bolleman
+    orcid: 0000-0002-7449-1266
     affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: AmsterdamUMC, Amsterdam, the Netherlands
+    ror: 05grdyy37
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: SIB Swiss Institute of Bioinformatics, Geneva, Switzerland
+    ror: 002n09z45
     index: 2
-date: 15 September 2025
+date: 1 December 2025
 cito-bibliography: paper.bib
 event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
