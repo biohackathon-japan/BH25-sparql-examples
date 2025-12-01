@@ -38,7 +38,20 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the DBCLS BioHackathon 2025, we here report...
+As part of the DBCLS BioHackathon 2025, we here report an extension to the SPARQL-examples repository maintained by the Swiss Bioinformatics Institute (SIB) [@citesAsAuthority:10.1093/gigascience/giaf045]. 
+SIB maintaines a large set of SPARQL endpoints and has been doing so since 20xx (TODO:citation). Often these SPARQL endpoints are documented by a large set of example queries. To streamline and centralize the collection of 
+example queries, SIB's sparql-examples has been developed using GitHub's pages and actions. This allows hosting those examples as documents with some appealing visualization. Upon submitting an example, a github action will publish the example as an extension to the platform with a visualization like the one in Figure 1 (todo). 
+
+## Hosting a sparql examples
+The sparql-example at SIB host primarily example queries for the resources maintained by the SIB. However, GitHub's forking allows duplicating the sparql-examples within other institutes. Doing so is straightforward. 
+1. Fork the repository to an account that will host the examples
+2. Enable GitHub pages and GitHub Actions
+3. Remove the examples from SIB and replace with examples
+4. Update the `index.md` in the main directory to point to the new examples
+
+## SPARQLTree
+Once the sparql-examples from SIB has been forked, ones own sparql examples can be added by embedding the queries in a metadata format that captures metadata as triples. This format contains keywords, endpoints to which the query can be submitted to get sensible results. 
+Maintaining this can be tedious, since the SPARQL query has to be added within the RDF. During the biohackathon we worked on a more userfriendly approach to collect SPARQL examples. This by using the approach used in [SPARQLSponge](https://github.com/andrawaag/SPARQLSponge)
 
 ## Author information
 
